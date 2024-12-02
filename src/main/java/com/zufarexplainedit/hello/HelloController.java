@@ -11,7 +11,7 @@ public class HelloController {
 
     @GetMapping
     public ResponseEntity<String> getGreeting() {
-        String message = "This is a test run!";
+        String message = "Just testing";
         return ResponseEntity.ok()
                 .body(message);
     }
